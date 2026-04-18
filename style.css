@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    padding: 100px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
