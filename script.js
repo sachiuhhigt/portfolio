@@ -1,4 +1,7 @@
-document.getElementById("contactForm").addEventListener("submit", function(e){
-    e.preventDefault();
-    alert("Message Sent Successfully!");
+document.querySelectorAll('a.nav-link').forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+document.querySelector(this.getAttribute('href'))
+.scrollIntoView({ behavior: 'smooth' });
+});
 });

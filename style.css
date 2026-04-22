@@ -1,13 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
+margin: 0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg, #667eea, #764ba2);
+color: white;
 }
 
+/* Glass Effect */
+.glass {
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(10px);
+border-radius: 15px;
+border: 1px solid rgba(255,255,255,0.2);
+box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+/* Hero */
 .hero {
-    background: linear-gradient(to right, #007bff, #00c6ff);
-    padding: 100px 0;
+height: 100vh;
 }
 
-h2 {
-    margin-bottom: 20px;
-    font-weight: bold;
+/* Cards */
+.card {
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-10px);
+}
+
+/* WhatsApp Button */
+.whatsapp-float {
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #25D366;
+color: white;
+font-size: 24px;
+padding: 12px 15px;
+border-radius: 50%;
+z-index: 1000;
+}
+
+.whatsapp-float:hover {
+background: #1ebe5d;
+}
+
+/* Section spacing fix */
+section {
+margin-top: 40px;
+}
+
+/* Footer */
+footer {
+color: white;
 }
